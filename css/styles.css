@@ -7,12 +7,14 @@
   --background-color: #ffffff;
   --hero-footer-back: #2f303a;
   --filter-btn: #f5f4fa;
+  --our-team-background: #f5f4fa;
 }
 /* ----------SERVICE CLASSES---------- */
 
 .link-res {
   text-decoration: none;
   font-style: normal;
+  color: inherit;
 }
 .list-res {
   list-style: none;
@@ -58,7 +60,9 @@ body {
 .header-nav-link:hover,
 .header-nav-link:focus,
 .footer-adress-link:hover,
-.footer-adress-link:focus {
+.footer-adress-link:focus,
+.our-projects-link:hover,
+.our-projects-link:focus {
   color: var(--accent-color);
 }
 
@@ -75,6 +79,9 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: inherit;
+}
+.current {
+  color: var(--accent-color);
 }
 .header-contacts-link {
   font-weight: 500;
@@ -124,7 +131,9 @@ body {
 }
 
 /* ----------OUR TEAM---------- */
-
+.our-team-section {
+  background: var(--our-team-background);
+}
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
